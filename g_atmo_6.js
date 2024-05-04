@@ -108,17 +108,8 @@ function endGame(guest){
     textElement.innerHTML = "Congralutations! You and " + partyGuests[guest] + " are now engaged!";
     textElement.style.margin = "40px";  // Add margin to the text
 
-    var button1 = document.createElement("button");
-    button1.innerHTML = "I am so excited!";
-
-    var button2 = document.createElement("button");
-    button2.innerHTML = "HUH?? ENGAGED??";
-    button1.style.margin, button2.style.margin = "10px";  // Add margin to the button2
-
     document.body.appendChild(endGameContainer);
     endGameContainer.appendChild(textElement);
-    endGameContainer.appendChild(button1);
-    endGameContainer.appendChild(button2);
     
 
 }
